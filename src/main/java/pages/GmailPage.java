@@ -9,7 +9,7 @@ import static org.testng.Assert.assertEquals;
 
 public class GmailPage extends PageBase {
 
-    private static By emailLinks = get("GmailPage.emailLinks");
+    private static final By emailLinks = get("GmailPage.emailLinks");
 
     private static final String TITLE = "Inbox (1) - forstudy319@gmail.com - Gmail";
 

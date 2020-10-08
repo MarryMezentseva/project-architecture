@@ -41,7 +41,7 @@ public class SearchTest extends BaseTestClass {
     @Description("This is a test that's currently in development")
     @Stories("Success story")
     @Test(enabled = false)
-    public void pendingTest(){
+    public void pendingTest() {
         //todo: implement some neat Google search checks
     }
 }
